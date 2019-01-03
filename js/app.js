@@ -1,4 +1,4 @@
-
+//
 // Top bar 
 const $topBar = document.getElementById('header');
 mdc.topAppBar.MDCTopAppBar.attachTo($topBar);
