@@ -13,6 +13,7 @@ body {
 /* tabs */
 .custom-tab-content-item {
 	display: none;
+	height: 200px;
 }
 
 .custom-tab-content-item.active {

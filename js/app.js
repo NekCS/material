@@ -31,9 +31,9 @@ $tabBar.addEventListener('MDCTabBar:activated', function(e) {
 	$('.custom-tab-content-item').eq(tabBar.activeTab).addClass('active');
 });
 
-$(".custom-tab-content-item").on('swipeleft',  function(){
-	alert($tabBar.getFocusedTabIndex());
-})
+$('.custom-tab-content-item').on('swipeleft',  function(){
+	
+});
 
 
 const $tabIndicator = document.querySelector('.mdc-tab-indicator');
@@ -48,16 +48,3 @@ const bottomNavBtns = document.querySelectorAll('.bottom-nav-option button');
 for ( var i = 0; i < bottomNavBtns.length; i ++ ) {
 	mdc.ripple.MDCRipple.attachTo(bottomNavBtns[i]);
 }
-
-
-/*
- *
- *
- *
- *
- *
-*/
-var string = '';
-document.addEventListener('keydown', (event) => {
- 
-}, false);
