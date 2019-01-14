@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 	<link rel="stylesheet" type="text/css" href="css/colors.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/chart.css">
 </head>
 <body class="mdc-typography">
 	<!-- =============== Top bar ================-->
@@ -48,14 +49,9 @@
 	</aside>
 	<div class="mdc-drawer-scrim"></div>
 	<div id="main-content" class="mdc-top-app-bar--fixed-adjust mdc-typography--headline3">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+		<div id="barchart-material-outer" class="barchart-material-outer">
+			<div id="barchart" class="barchart-material-inner"></div>		
+		</div>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -160,7 +156,9 @@
 	<!-- scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="js/jquery.detect_swipe.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/chart.js"></script>
 </body>
 </html>
